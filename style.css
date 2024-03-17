@@ -1,0 +1,349 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+}
+.menu {
+  position: fixed;
+  right: 30px;
+  top: 20px;
+  cursor: pointer;
+  padding: 15px;
+  background: #3333;
+  border-radius: 5px;
+}
+.main__start {
+  background-image: url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+}
+.main__start h1 {
+  font-size: 75px;
+  padding-top: 200px;
+  font-weight: bolder;
+}
+.main__start p {
+  font-weight: bolder;
+  font-size: 30px;
+}
+.main__start a {
+  text-decoration: none;
+  padding: 20px 30px;
+  background: #1d809f;
+  border-radius: 10px;
+  margin-top: 20px;
+  color: white;
+}
+.main__second {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main__second div {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;
+  gap: 30px;
+}
+.main__second div h3 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.main__second div p {
+  font-weight: lighter;
+  font-size: 20px;
+}
+.main__second div p a {
+  text-decoration: none;
+  color: #1d809f;
+}
+.main__second-a {
+  text-decoration: none;
+  padding: 20px 30px;
+  color: white;
+  background: #000;
+  border-radius: 5px;
+}
+.main__services {
+  width: 100%;
+  height: auto;
+  background: #1d809f;
+  color: white;
+  padding: 100px 0px;
+}
+.services__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.services__head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 50px;
+}
+.services__head h4 {
+  color: goldenrod;
+  font-weight: bold;
+  font-size: 20px;
+}
+.services__head span {
+  font-size: 40px;
+  font-weight: bold;
+}
+.services__foot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+.services__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.fa-mobile-screen,
+.fa-pencil,
+.fa-thumbs-up,
+.fa-face-smile {
+  padding: 40px;
+  border-radius: 50%;
+  color: #1d809f;
+  background: white;
+  font-size: 30px;
+}
+.services__card h4 {
+  font-weight: bold;
+  font-size: 25px;
+}
+.services__card p {
+  font-size: 16px;
+  width: 150px;
+  text-align: center;
+}
+.main__download {
+  background-image: url(https://chronhib.maynoothuniversity.ie/helloworldapp/static/img/bg-callout.jpg);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 250px 0px;
+  gap: 50px;
+}
+.main__download h2 {
+  font-size: 50px;
+  width: 400px;
+  text-align: center;
+  font-weight: 6000;
+}
+.main__download a {
+  text-decoration: none;
+  color: white;
+  background: #1d809f;
+  padding: 20px;
+  border-radius: 5px;
+}
+.main__portfolio {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 100px 0px;
+}
+.portfolio__head {
+  font-size: 15px;
+  color: goldenrod;
+}
+.main__portfolio h2 {
+  font-size: 40px;
+  margin-top: -10px;
+  font-weight: bold;
+}
+.portfolio__container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.portfolio__container h5 {
+  font-weight: bold;
+  font-size: 15px;
+}
+.portfolio__container p {
+  font-weight: normal;
+}
+.portfolio__cards1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio__cards2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio__card1,
+.portfolio__card2,
+.portfolio__card3,
+.portfolio__card4 {
+  background: #1d809f;
+  width: 500px;
+  height: 350px;
+}
+.portfolio__card1 {
+  background-image: url(https://github.com/StartBootstrap/startbootstrap-stylish-portfolio/blob/master/dist/assets/img/portfolio-1.jpg?raw=true);
+  background-size: cover;
+  display: flex;
+  justify-content: left;
+  align-items: end;
+  padding: 20px;
+  transition: 0.3s ease-in;
+}
+.portfolio__card1 a {
+  text-decoration: none;
+  color: white;
+  margin-top: 30px;
+}
+.portfolio__card1:hover {
+  scale: 0.9;
+  background: #1d809f;
+}
+.portfolio__card2 {
+  background-image: url(https://github.com/StartBootstrap/startbootstrap-stylish-portfolio/blob/master/dist/assets/img/portfolio-2.jpg?raw=true);
+  background-size: cover;
+  display: flex;
+  justify-content: left;
+  align-items: end;
+  padding: 20px;
+  transition: 0.3s ease-in;
+}
+.portfolio__card2 a {
+  text-decoration: none;
+  color: white;
+  margin-top: 30px;
+}
+.portfolio__card2:hover {
+  scale: 0.9;
+  background: #1d809f;
+}
+.portfolio__card3 {
+  background-image: url(https://github.com/StartBootstrap/startbootstrap-stylish-portfolio/blob/master/dist/assets/img/portfolio-3.jpg?raw=true);
+  background-size: cover;
+  display: flex;
+  justify-content: left;
+  align-items: end;
+  padding: 20px;
+  transition: 0.3s ease-in;
+}
+.portfolio__card3 a {
+  text-decoration: none;
+  color: rgb(227, 225, 225);
+  margin-top: 30px;
+}
+.portfolio__card3:hover {
+  scale: 0.9;
+  background: #1d809f;
+}
+.portfolio__card4 {
+  background-image: url(https://github.com/StartBootstrap/startbootstrap-stylish-portfolio/blob/master/dist/assets/img/portfolio-4.jpg?raw=true);
+  background-size: cover;
+  display: flex;
+  justify-content: left;
+  align-items: end;
+  padding: 20px;
+  transition: 0.3s ease-in;
+}
+.portfolio__card4 a {
+  text-decoration: none;
+  color: white;
+  margin-top: 30px;
+}
+.portfolio__card4:hover {
+  scale: 0.9;
+  background: #1d809f;
+}
+.main__resist {
+  background: #1d809f;
+  padding: 50px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.main__resist h2{
+  color: white;
+  font-weight: bolder;
+  font-size: 30px;
+}
+.resist__links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.resist__links a{
+  text-decoration: none;
+  padding: 20px;
+  font-size: 15px;
+  border-radius: 5px;
+}
+.resist__white{
+  color: black;
+  background: white;
+}
+.resist__black{
+  color: white;
+  background: #000;
+}
+.main__map{
+  width: 100%;
+  
+}
+iframe{
+  width: 100%; 
+  height: 500px;
+}
+footer{
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+footer ul{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+footer ul li{
+  padding: 15px;
+  border-radius: 50%;
+  background: #1d809f;
+}
+footer ul li a{
+  color: white;
+  font-size: 20px;
+}
+footer p{
+  color: rgb(154, 152, 152);
+  font-size: 13px;
+}
