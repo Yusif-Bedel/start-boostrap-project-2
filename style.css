@@ -347,3 +347,26 @@ footer p{
   color: rgb(154, 152, 152);
   font-size: 13px;
 }
+@media only screen and (max-width: 1016px) {
+.portfolio__cards1 ,.portfolio__cards2{
+  flex-direction: column;
+}
+}
+@media only screen and (max-width: 796px) {
+.services__foot{
+  flex-direction: column;
+}
+}
+@media only screen and (max-width: 600px) {
+.portfolio__card1 ,.portfolio__card2 ,.portfolio__card3 ,.portfolio__card4{
+  width: 300px;
+  height: 200px;
+}}
+@media only screen and (max-width: 535px) {
+  .main__start h1{
+    font-size: 50px;
+  }
+  .main__start p{
+    font-size: 20px;
+  }
+}
